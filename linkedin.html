@@ -2,37 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>Linkedin</title>
     <link rel="stylesheet" href="linkedin.css" />
   </head>
-  <body class="main-layout">
-    <!-- <div class="main-layout"> -->
-      <div class="main-header padding grid-gap three-column-grid">
-        <div class="logo"></div>
-        <div class="search-bar"></div>
-        <div class="icons">
-         <ul class="icon-list">
-           <li></li>
-           <li></li>
-           <li></li>
-         </ul>
+  <body>
+    <header class="center-grid">
+      <div class="centered three-column__expand-two">
+        <div class="blue-container logo"></div>
+        <div class="blue-container search-bar-icon">
+          <div class="search-bar"></div>
         </div>
+        <ul class="blue-container menu">
+          <li class="orange-container menu-icon"></li>
+          <li class="orange-container menu-icon"></li>
+          <li class="orange-container menu-icon"></li>
+          <li class="orange-container menu-icon"></li>
+          <li class="orange-container menu-icon"></li>
+        </ul>
       </div>
-      <div class="aside-1 padding grid-gap">
-        <div class="inner-box"></div>
-        <div class="inner-box"></div>
-        <div class="inner-box"></div>
-        <div class="inner-box"></div>
+    </header>
+
+    <main class="center-grid">
+      <div class="centered three-column__expand-two">
+        <aside class="left-side">
+          <div class="blue-container">
+            <div class="orange-container user-info"></div>
+            <div class="orange-container user-info"></div>
+            <div class="orange-container user-info"></div>
+          </div>
+          <div class="blue-container"></div>
+          <div class="blue-container"></div>
+        </aside>
+
+        <div class="feed">
+          <div class="blue-container">
+            <div class="orange-container post">
+              <div class="red-container icon"></div>
+              <div class="red-container"></div>
+            </div>
+            <div class="orange-container shared-content-list">
+              <div class="red-container shared-content"></div>
+              <div class="red-container shared-content"></div>
+              <div class="red-container shared-content"></div>
+              <div class="red-container shared-content"></div>
+            </div>
+          </div>
+          <ul class="blue-container article-list">
+            <li class="orange-container article"></li>
+            <li class="orange-container article"></li>
+            <li class="orange-container article"></li>
+          </ul>
+        </div>
+
+        <aside class="right-side">
+          <ul class="blue-container extra-content-list">
+            <li class="orange-container extra-content"></li>
+            <li class="orange-container extra-content"></li>
+            <li class="orange-container extra-content"></li>
+            <li class="orange-container extra-content"></li>
+            <li class="orange-container extra-content"></li>
+          </ul>
+          <div class="blue-container"></div>
+          <div class="blue-container"></div>
+        </aside>
       </div>
-       <div class="aside-1-row-2"></div>
-       <div class="aside-1-row-3"></div>
-       <div class="main padding"></div>
-       <div class="aside-2 padding"></div>
-       <div class="aside-2-row-2"></div>
-       <div class="aside-2-row-3"></div>
-      </div>
-    </div>
+    </main>
   </body>
 </html>
